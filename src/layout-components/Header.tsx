@@ -12,7 +12,7 @@ export default function Header() {
         height={45}
         className="h-[32px] object-contain"
       ></Image>
-      <ul className="flex gap-8 items-center">
+      <ul className="gap-8 items-center hidden lg:flex">
         <li className="hover:text-gray-500 transition-ease duration-300">
           <Link href={"/"}>Home</Link>
         </li>

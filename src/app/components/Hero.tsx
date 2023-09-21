@@ -5,7 +5,9 @@ export default function Hero() {
   return (
     <div className=" bg-[#C1DCDC] py-12 rounded-2xl relative flex justify-center xl:justify-start">
       <div className="w-full max-w-[500px] flex flex-col gap-8 p-12 relative z-10">
-        <h1 className="text-5xl font-bold">Buy your dream plants</h1>
+        <h1 className="text-4xl md:text-5xl font-bold">
+          Buy your dream plants
+        </h1>
         <div className="flex items-center gap-8 text-xl font-medium">
           <div className="flex flex-col">
             <p>50+</p>
