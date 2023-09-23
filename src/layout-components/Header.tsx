@@ -5,13 +5,14 @@ import Link from "next/link";
 export default function Header() {
   return (
     <div className="container mx-auto flex justify-between items-center py-8 px-4 font-poppins">
-      <Image
+      {/* <Image
         alt="logo Greenmind"
         src={"/greenmind__logo.png"}
         width={140}
         height={45}
         className="h-[32px] object-contain"
-      ></Image>
+      ></Image> */}
+      <span className="font-bold text-2xl">GREENMIND</span>
       <ul className="gap-8 items-center hidden lg:flex">
         <li className="hover:text-gray-500 transition-ease duration-300">
           <Link href={"/"}>Home</Link>
