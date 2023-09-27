@@ -7,7 +7,7 @@ const H3 = tw.h3`text-md font-medium mb-4`;
 
 export const Footer = () => {
   return (
-    <footer className="bg-[#C1DCDC]">
+    <footer className="bg-hero-signal bg-[#C1DCDC]">
       <Flex className="container mx-auto items-start justify-start  gap-4 lg:flex-row lg:gap-8">
         <Flex className="mr-auto max-w-[200px] items-start gap-4">
           <h2 className="font-bold">GREEMIND</h2>
