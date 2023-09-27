@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <div className="container mx-auto flex justify-between items-center py-8 px-4 font-poppins">
+    <div className="container mx-auto flex items-center justify-between px-4 py-8 font-poppins">
       {/* <Image
         alt="logo Greenmind"
         src={"/greenmind__logo.png"}
@@ -12,19 +12,19 @@ export default function Header() {
         height={45}
         className="h-[32px] object-contain"
       ></Image> */}
-      <span className="font-bold text-2xl">GREENMIND</span>
-      <ul className="gap-8 items-center hidden lg:flex">
-        <li className="hover:text-gray-500 transition-ease duration-300">
+      <span className="text-2xl font-bold">GREENMIND</span>
+      <ul className="hidden items-center gap-8 lg:flex">
+        <li className="transition-ease duration-300 hover:text-gray-500">
           <Link href={"/"}>Home</Link>
         </li>
-        <li className="hover:text-gray-500 transition-ease duration-300">
+        <li className="transition-ease duration-300 hover:text-gray-500">
           <Link href={"/"}>Products</Link>
         </li>
-        <li className="hover:text-gray-500 transition-ease duration-300">
+        <li className="transition-ease duration-300 hover:text-gray-500">
           <Link href={"/"}>Contacts</Link>
         </li>
       </ul>
-      <div className="flex gap-4 items-center">
+      <div className="flex items-center gap-0 md:gap-4">
         <Image
           src={"/cart__icon.svg"}
           width={32}
@@ -41,7 +41,7 @@ export default function Header() {
         ></Image>
         <Image
           src={"/vertical__line.svg"}
-          width={32}
+          width={16}
           height={32}
           alt=""
           className="h-[24px]"

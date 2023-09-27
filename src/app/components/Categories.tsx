@@ -9,7 +9,7 @@ const H3 = tw.h3`text-md font-medium mb-4`;
 export default function Categories() {
   return (
     <Flex className="lg:flex-row">
-      <Flex className="flex-col gap-4 lg:mt-[-12rem] basis-1/3">
+      <Flex className="basis-1/3 gap-4 lg:mt-[-12rem]">
         <Image
           src={"/plant__category.png"}
           height={600}
@@ -18,7 +18,7 @@ export default function Categories() {
         />
         <H3>Artificial Plants</H3>
       </Flex>
-      <Flex className="flex-col gap-4 basis-1/3">
+      <Flex className="basis-1/3 flex-col gap-4">
         <Image
           src={"/plant__category-2.png"}
           height={600}
@@ -27,7 +27,7 @@ export default function Categories() {
         />
         <H3>Artificial Plants</H3>
       </Flex>
-      <Flex className="flex-col gap-4 lg:mt-[-12rem] basis-1/3">
+      <Flex className="basis-1/3 flex-col gap-4 lg:mt-[-12rem]">
         <Image
           src={"/plant__category-3.png"}
           height={600}

@@ -32,13 +32,15 @@ export default function Home() {
           <p>Find what you are looking for</p>
         </Flex>
       </Container>
-      <Section className="bg-[#C1DCDC] my-[2rem]">
+      <Section className="my-[2rem] bg-[#C1DCDC]">
         <Container>
           <Categories />
         </Container>
       </Section>
-      <Section className="ml-[4rem]">
-        <Testimonials />
+      <Section>
+        <Container>
+          <Testimonials />
+        </Container>
       </Section>
     </article>
   );

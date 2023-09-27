@@ -12,9 +12,9 @@ export default function Testimonials() {
   return (
     <Flex
       ref={ref}
-      className="scrollbar-hidden overflow-x-hidden hover:overflow-x-scroll  hover:scrollbar-thin scrollbar-track-rounded-md scrollbar-thumb-rounded-md scrollbar-thumb-gray-500 scrollbar-track-gray-100"
+      className="scrollbar-hidden overflow-x-hidden scrollbar-track-gray-100  scrollbar-thumb-gray-500 scrollbar-track-rounded-md scrollbar-thumb-rounded-md hover:overflow-x-scroll hover:scrollbar-thin"
     >
-      <Flex className="flex-col min-w-[800px] border items-start bg-[#C1DCDC] rounded-lg">
+      <Flex className="w-full min-w-[500px] flex-col items-start rounded-lg border bg-[#C1DCDC] md:min-w-[700px] lg:min-w-[900]">
         <p>
           Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
           vulputate libero et velit interdum, ac aliquet odio mattis. Class
@@ -23,17 +23,17 @@ export default function Testimonials() {
         </p>
         <Flex className="w-full justify-start">
           <Image src={"/quote.png"} width={48} height={48} alt="quote symbol" />
-          <Flex className="flex-col gap-0 mr-auto items-start py-2 px-2">
-            <p className="font-bold text-base">John Doe</p>
+          <Flex className="mr-auto flex-col items-start gap-0 px-2 py-2">
+            <p className="text-base font-bold">John Doe</p>
             <p className="text-sm">Youtuber</p>
           </Flex>
-          <p className="text-sm space-x-2 flex items-center font-bold self-start">
+          <p className="flex items-center space-x-2 self-start text-sm font-bold">
             <img className="inline" src="/star-icon.png" alt="star icon" />
             <span>4.5</span>
           </p>
         </Flex>
       </Flex>
-      <Flex className="flex-col min-w-[800px] border items-start bg-[#C1DCDC] rounded-lg">
+      <Flex className="w-full min-w-[500px] flex-col items-start rounded-lg border bg-[#C1DCDC] md:min-w-[700px] lg:min-w-[900]">
         <p>
           Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
           vulputate libero et velit interdum, ac aliquet odio mattis. Class
@@ -42,17 +42,18 @@ export default function Testimonials() {
         </p>
         <Flex className="w-full justify-start">
           <Image src={"/quote.png"} width={48} height={48} alt="quote symbol" />
-          <Flex className="flex-col gap-0 mr-auto items-start py-2 px-2">
-            <p className="font-bold text-base">John Doe</p>
+          <Flex className="mr-auto flex-col items-start gap-0 px-2 py-2">
+            <p className="text-base font-bold">John Doe</p>
             <p className="text-sm">Youtuber</p>
           </Flex>
-          <p className="text-sm space-x-2 flex items-center font-bold self-start">
+          <p className="flex items-center space-x-2 self-start text-sm font-bold">
             <img className="inline" src="/star-icon.png" alt="star icon" />
+
             <span>4.5</span>
           </p>
         </Flex>
       </Flex>
-      <Flex className="flex-col min-w-[800px] border items-start bg-[#C1DCDC] rounded-lg">
+      <Flex className="w-full min-w-[500px] flex-col items-start rounded-lg border bg-[#C1DCDC] md:min-w-[700px] lg:min-w-[900]">
         <p>
           Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
           vulputate libero et velit interdum, ac aliquet odio mattis. Class
@@ -61,11 +62,11 @@ export default function Testimonials() {
         </p>
         <Flex className="w-full justify-start">
           <Image src={"/quote.png"} width={48} height={48} alt="quote symbol" />
-          <Flex className="flex-col gap-0 mr-auto items-start py-2 px-2">
-            <p className="font-bold text-base">John Doe</p>
+          <Flex className="mr-auto flex-col items-start gap-0 px-2 py-2">
+            <p className="text-base font-bold">John Doe</p>
             <p className="text-sm">Youtuber</p>
           </Flex>
-          <p className="text-sm space-x-2 flex items-center font-bold self-start">
+          <p className="flex items-center space-x-2 self-start text-sm font-bold">
             <img className="inline" src="/star-icon.png" alt="star icon" />
             <span>4.5</span>
           </p>
